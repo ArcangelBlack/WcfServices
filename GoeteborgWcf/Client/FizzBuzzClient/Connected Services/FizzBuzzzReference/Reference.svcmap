@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2fabdb27-aeb6-493e-a087-5e9619266df4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50171/FizzBuzzService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FizzBuzzService.xsd" MetadataType="Schema" ID="6e6943eb-bea0-403f-8b68-8f7236db69ef" SourceId="1" SourceUrl="http://localhost:50171/FizzBuzzService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FizzBuzzService.wsdl" MetadataType="Wsdl" ID="dac0101a-e7ee-47c7-81ee-82d41ed7a46c" SourceId="1" SourceUrl="http://localhost:50171/FizzBuzzService.svc?wsdl" />
+    <MetadataFile FileName="FizzBuzzService1.xsd" MetadataType="Schema" ID="f2506cb7-c2b6-4196-ac1a-f85f661dcf2e" SourceId="1" SourceUrl="http://localhost:50171/FizzBuzzService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FizzBuzzService.disco" MetadataType="Disco" ID="9a8de59c-5c44-4ed5-bda4-e57d3eb1e046" SourceId="1" SourceUrl="http://localhost:50171/FizzBuzzService.svc?disco" />
+    <MetadataFile FileName="FizzBuzzService2.xsd" MetadataType="Schema" ID="e9795d88-c40e-423d-a9b9-809a629314be" SourceId="1" SourceUrl="http://localhost:50171/FizzBuzzService.svc?xsd=xsd3" />
+    <MetadataFile FileName="FizzBuzzService3.xsd" MetadataType="Schema" ID="58916e14-7553-4012-b7de-47232df6cb71" SourceId="1" SourceUrl="http://localhost:50171/FizzBuzzService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
